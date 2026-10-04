@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>theyluvjinxed's DBD Locker</title>
+<style>
+:root{--pink:#ff78b7;--purple:#9d7bff;--dark:#0d0b13;--panel:#171321;--text:#f7eff8;--muted:#b9adbd}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;color:var(--text);font-family:Inter,system-ui,sans-serif;background:radial-gradient(circle at 15% 10%,#ff78b71c,transparent 30%),radial-gradient(circle at 85% 90%,#9d7bff1c,transparent 35%),var(--dark)}
+.container{max-width:1100px;margin:auto;padding:32px 20px 50px}header{text-align:center;margin-bottom:28px}
+h1{margin:0;font-size:clamp(2rem,5vw,3.4rem);letter-spacing:-.04em}h1 span{color:var(--pink)}.subtitle{color:var(--muted);margin-top:8px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:24px 0}.stat,.card{background:linear-gradient(145deg,#1b1625,#121019);border:1px solid #ffffff12;border-radius:18px;box-shadow:0 12px 35px #0005}
+.stat{padding:18px;text-align:center}.stat strong{display:block;font-size:1.6rem;color:var(--pink)}
+.controls{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}input,select{flex:1;min-width:180px;background:#100d15;color:var(--text);border:1px solid #ffffff1a;border-radius:12px;padding:12px 14px;outline:none}
+input:focus,select:focus{border-color:var(--pink)}.section-title{margin:30px 0 14px;font-size:1.45rem}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.card{overflow:hidden}.image{height:180px;background:#0b0910;display:flex;align-items:center;justify-content:center;color:#756b79}.image img{width:100%;height:100%;object-fit:cover}
+.info{padding:14px}.name{font-weight:800;font-size:1.05rem}.meta{color:var(--muted);font-size:.9rem;margin-top:5px}.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}.tag{font-size:.75rem;padding:5px 8px;border-radius:999px;background:#ff78b71a;color:#ffacd1}
+.empty{text-align:center;color:var(--muted);padding:35px;grid-column:1/-1}footer{text-align:center;color:#776c7b;margin-top:35px;font-size:.85rem}
+@media(max-width:650px){.stats{grid-template-columns:1fr}.container{padding:22px 14px}}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<h1>♡ <span>theyluvjinxed</span>'s DBD Locker ♡</h1>
+<div class="subtitle">Survivors, Killers & cosmetics I own ✦</div>
+</header>
+<div class="stats">
+<div class="stat"><strong id="characters">0</strong>Characters</div>
+<div class="stat"><strong id="outfits">0</strong>Cosmetics</div>
+<div class="stat"><strong id="shown">0</strong>Showing</div>
+</div>
+<div class="controls">
+<input id="search" placeholder="🔎 Search your locker...">
+<select id="type"><option value="all">Everything</option><option value="survivor">Survivors</option><option value="killer">Killers</option></select>
+</div>
+<h2 class="section-title">♡ My Locker</h2>
+<div id="grid" class="grid"></div>
+<footer>made with ♡ for the fog</footer>
+</div>
+<script>
+let locker=[];
+async function loadLocker(){
+  try{
+    const response=await fetch("locker.json");
+    locker=await response.json();
+    render();
+  }catch(e){
+    document.getElementById("grid").innerHTML='<div class="empty">♡ Could not load locker.json ♡<br>Make sure locker.json is uploaded beside index.html.</div>';
+  }
+}
+const grid=document.getElementById("grid"),search=document.getElementById("search"),type=document.getElementById("type");
+function render(){
+ const q=search.value.toLowerCase().trim(),t=type.value;
+ const filtered=locker.filter(x=>(t==="all"||x.type===t)&&`${x.name} ${x.item}`.toLowerCase().includes(q));
+ document.getElementById("characters").textContent=new Set(locker.map(x=>x.name)).size;
+ document.getElementById("outfits").textContent=locker.length;
+ document.getElementById("shown").textContent=filtered.length;
+ if(!filtered.length){grid.innerHTML='<div class="empty">♡ Nothing found yet ♡<br>Add your DBD characters and cosmetics to locker.json.</div>';return;}
+ grid.innerHTML=filtered.map(x=>`<article class="card"><div class="image">${x.image?`<img src="${x.image}" alt="${escapeHtml(x.name)} - ${escapeHtml(x.item)}" onerror="this.parentElement.innerHTML='♡ Image missing ♡'">`:"♡"}</div><div class="info"><div class="name">${escapeHtml(x.name)}</div><div class="meta">${escapeHtml(x.item)}</div><div class="tags"><span class="tag">${x.type==="killer"?"🔪 Killer":"♡ Survivor"}</span></div></div></article>`).join("");
+}
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));}
+search.addEventListener("input",render);type.addEventListener("change",render);loadLocker();
+</script>
+</body>
+</html>

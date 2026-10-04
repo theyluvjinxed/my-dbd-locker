@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Kate Denson",
+    "type": "survivor",
+    "item": "Example outfit",
+    "image": ""
+  },
+  {
+    "name": "The Legion",
+    "type": "killer",
+    "item": "Example outfit",
+    "image": ""
+  }
+]
