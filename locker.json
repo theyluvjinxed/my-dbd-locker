@@ -10,5 +10,16 @@
     "type": "killer",
     "item": "Example outfit",
     "image": ""
-  }
+  },
+  {
+     "name": "Yun-Jin Lee",
+    "type": "survivor",
+    "item": "Example outfit",
+    "image": ""
+     },
+    {
+     "name": "Vee Boonyasak",
+    "type": "survivor",
+    "item": "Example outfit",
+    "image": ""
 ]
