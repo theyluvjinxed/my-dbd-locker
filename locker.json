@@ -7,19 +7,16 @@
   {
     "name": "The Legion",
     "type": "killer",
-    "item": "Base outfit",
     "image": ""
   },
   {
      "name": "Yun-Jin Lee",
     "type": "survivor",
-    "item": "Base outfit",
     "image": ""
      },
     {
      "name": "Vee Boonyasak",
     "type": "survivor",
-    "item": "Base outfit",
     "image": "Images/Vee.webp"
     }
 ]
