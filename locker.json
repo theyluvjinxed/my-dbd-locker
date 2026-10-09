@@ -1,161 +1,192 @@
 [
   {
     "name": "Kate Denson",
+    "item": "dbd original",
     "type": "survivor",
     "image": "images/kate.jpg"
   },
   {
      "name": "Zarina Kassir",
+     "item": "dbd original",
     "type": "survivor",
     "image": "images/Zarina.jpg"
   },
   {
      "name": "Dwight Fairfield",
+     "item": "dbd original",
     "type": "survivor",
     "image": "images/kate.jpg"
   },
   {
      "name": "Meg Thomas",
+     "item": "dbd original",
     "type": "survivor",
     "image": "images/kate.jpg"
   },
   {
      "name": "Claudette Morel",
+    "item": "dbd original",
     "type": "survivor",
     "image": "images/kate.jpg"
   },
   {
      "name": "Laurie Strode",
+    "item": "Halloween",
     "type": "survivor",
     "image": "images/kate.jpg"
   },
   {
      "name": "William (Bil) Overbeck",
+     "item": "dbd original",
     "type": "survivor",
     "image": "images/kate.jpg"
   },
   {
      "name": "Nea Karlsson",
+    "item": "dbd original",
     "type": "survivor",
     "image": "images/kate.jpg"
   },
   {
      "name": "Jake Park",
+    "item": "dbd original",
     "type": "survivor",
     "image": "images/kate.jpg"
   },
   {
      "name": "Ace Visconti",
+     "item": "dbd original",
     "type": "survivor",
     "image": "images/kate.jpg"
   },
   {
     "name": "Feng Min",
+   "item": "dbd original",
     "type": "survivor",
     "image": ""
   },
   {
      "name": "David King",
+    "item": "dbd original",
     "type": "survivor",
     "image": ""
      },
     {
-       "name": "Adam Francis",
+    "name": "Adam Francis",
+   "item": "dbd original",
     "type": "survivor",
     "image": ""
      },
     {
        "name": "Nancy Wheeler",
+      "item": "Stranger Things",
     "type": "survivor",
     "image": ""
      },
     {
        "name": "Robin Buckley",
+      "item": "Stranger Things",
     "type": "survivor",
     "image": ""
      },
     {
        "name": "Steve Harrington",
+      "item": "Stranger Things",
     "type": "survivor",
     "image": ""
      },
     {
        "name": "Yui Kimura",
+      "item": "dbd original",
     "type": "survivor",
     "image": ""
      },
     {
        "name": "Cheryl Mason",
+      "item": "Silent Hill",
     "type": "survivor",
     "image": ""
      },
     {
        "name": "Jill Valentine",
+      "item": "Resident Evil",
     "type": "survivor",
     "image": ""
      },
     {
        "name": "Claire Redfield",
+      "item": "Resident Evil",
     "type": "survivor",
     "image": ""
      },
     {
        "name": "Leon S. Kennedy",
+      "item": "Resident Evil",
     "type": "survivor",
     "image": ""
      },
     {
        "name": "Mikaela Reid",
+      "item": "dbd original",
     "type": "survivor",
     "image": ""
      },
     {
        "name": "Ada Wong",
+      "item": "Resident Evil",
     "type": "survivor",
     "image": ""
      },
     {
        "name": "Rebecca Chambers",
+      "item": "Resident Evil",
     "type": "survivor",
     "image": ""
      },
     {
        "name": "Nicolas Cage",
+      "item": "Real life Actor",
     "type": "survivor",
     "image": ""
      },
     {
        "name": "Sable Ward",
+      "item": "dbd original",
     "type": "survivor",
     "image": ""
      },
     {
        "name": "Lara Croft",
-    "type": "survivor",
+    "type": "Tomb Raider",
     "image": ""
      },
     {
        "name": "Dustin Henderson",
+      "item": "Stranger Things",
     "type": "survivor",
     "image": ""
      },
     {
       "name": "Vee Boonyasak",
+      "item": "dbd original",
     "type": "survivor",
     "image": ""
      },
     {
        "name": "Eleven",
+      "item": "Stranger Things",
     "type": "survivor",
     "image": ""
      },
     {
        "name": "Kwon Tae-Young",
+      "item": "dbd original",
     "type": "survivor",
     "image": ""
      },
     {
      "name": "The Legion",
+      "item": "dbd original",
     "type": "killer",
     "image": "Images/Vee.webp"
     }
