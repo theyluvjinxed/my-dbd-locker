@@ -7,61 +7,156 @@
   {
      "name": "Zarina Kassir",
     "type": "survivor",
-    "image": "images/kate.jpg"
+    "image": "images/Zarina.jpg"
   },
   {
-     "name": "Kate Denson",
+     "name": "Dwight Fairfield",
     "type": "survivor",
     "image": "images/kate.jpg"
   },
   {
-     "name": "Kate Denson",
+     "name": "Meg Thomas",
     "type": "survivor",
     "image": "images/kate.jpg"
   },
   {
-     "name": "Kate Denson",
+     "name": "Claudette Morel",
     "type": "survivor",
     "image": "images/kate.jpg"
   },
   {
-     "name": "Kate Denson",
+     "name": "Laurie Strode",
     "type": "survivor",
     "image": "images/kate.jpg"
   },
   {
-     "name": "Kate Denson",
+     "name": "William (Bil) Overbeck",
     "type": "survivor",
     "image": "images/kate.jpg"
   },
   {
-     "name": "Kate Denson",
+     "name": "Nea Karlsson",
     "type": "survivor",
     "image": "images/kate.jpg"
   },
   {
-     "name": "Kate Denson",
+     "name": "Jake Park",
     "type": "survivor",
     "image": "images/kate.jpg"
   },
   {
-     "name": "Kate Denson",
+     "name": "Ace Visconti",
     "type": "survivor",
     "image": "images/kate.jpg"
   },
   {
-    "name": "The Legion",
-    "type": "killer",
+    "name": "Feng Min",
+    "type": "survivor",
     "image": ""
   },
   {
-     "name": "Yun-Jin Lee",
+     "name": "David King",
     "type": "survivor",
     "image": ""
      },
     {
-     "name": "Vee Boonyasak",
+       "name": "Adam Francis",
     "type": "survivor",
+    "image": ""
+     },
+    {
+       "name": "Nancy Wheeler",
+    "type": "survivor",
+    "image": ""
+     },
+    {
+       "name": "Robin Buckley",
+    "type": "survivor",
+    "image": ""
+     },
+    {
+       "name": "Steve Harrington",
+    "type": "survivor",
+    "image": ""
+     },
+    {
+       "name": "Yui Kimura",
+    "type": "survivor",
+    "image": ""
+     },
+    {
+       "name": "Cheryl Mason",
+    "type": "survivor",
+    "image": ""
+     },
+    {
+       "name": "Jill Valentine",
+    "type": "survivor",
+    "image": ""
+     },
+    {
+       "name": "Claire Redfield",
+    "type": "survivor",
+    "image": ""
+     },
+    {
+       "name": "Leon S. Kennedy",
+    "type": "survivor",
+    "image": ""
+     },
+    {
+       "name": "Mikaela Reid",
+    "type": "survivor",
+    "image": ""
+     },
+    {
+       "name": "Ada Wong",
+    "type": "survivor",
+    "image": ""
+     },
+    {
+       "name": "Rebecca Chambers",
+    "type": "survivor",
+    "image": ""
+     },
+    {
+       "name": "Nicolas Cage",
+    "type": "survivor",
+    "image": ""
+     },
+    {
+       "name": "Sable Ward",
+    "type": "survivor",
+    "image": ""
+     },
+    {
+       "name": "Lara Croft",
+    "type": "survivor",
+    "image": ""
+     },
+    {
+       "name": "Dustin Henderson",
+    "type": "survivor",
+    "image": ""
+     },
+    {
+      "name": "Vee Boonyasak",
+    "type": "survivor",
+    "image": ""
+     },
+    {
+       "name": "Eleven",
+    "type": "survivor",
+    "image": ""
+     },
+    {
+       "name": "Kwon Tae-Young",
+    "type": "survivor",
+    "image": ""
+     },
+    {
+     "name": "The Legion",
+    "type": "killer",
     "image": "Images/Vee.webp"
     }
 ]
