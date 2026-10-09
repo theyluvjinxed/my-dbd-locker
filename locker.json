@@ -147,24 +147,24 @@
        "name": "Nicolas Cage",
       "item": "Real life Actor",
     "type": "survivor",
-    "image": "images/"
+    "image": "images/nicolas.jpg"
      },
     {
        "name": "Sable Ward",
       "item": "dbd original",
     "type": "survivor",
-    "image": "images/"
+    "image": "images/sable.jpg"
      },
     {
        "name": "Lara Croft",
     "type": "Tomb Raider",
-    "image": "images/"
+    "image": "images/lara.jpg"
      },
     {
        "name": "Dustin Henderson",
       "item": "Stranger Things",
     "type": "survivor",
-    "image": "images/"
+    "image": "images/dustin.jpg"
      },
     {
       "name": "Vee Boonyasak",
@@ -176,13 +176,13 @@
        "name": "Eleven",
       "item": "Stranger Things",
     "type": "survivor",
-    "image": "images/"
+    "image": "images/eleven.jpg"
      },
     {
        "name": "Kwon Tae-Young",
       "item": "dbd original",
     "type": "survivor",
-    "image": "images/"
+    "image": "images/kwon.jpg"
      },
     {
      "name": "The Legion",
