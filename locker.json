@@ -6,6 +6,12 @@
     "image": "images/kate.jpg"
   },
   {
+      "name": "A2",
+    "item": "Nier: Automata",
+    "type": "survivor",
+    "image": "images/A2.jpg"
+  },
+  {
      "name": "Zarina Kassir",
      "item": "dbd original",
     "type": "survivor",
